@@ -27,7 +27,7 @@ public class AddingItemsIntoCart {
 		for (int i = 0; i < products.size(); i++) {
 			String[] names = products.get(i).getText().split("-");
 			String formattedName = names[0].trim();
-//			System.out.println(formattedName);
+
 			List itemNeededList = Arrays.asList(itemNeeded);
 			if (itemNeededList.contains(formattedName)) {
 				j++;
