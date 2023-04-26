@@ -25,7 +25,7 @@ public class Locator2 {
 		driver.findElement(By.cssSelector(".logout-btn")).click();
 		System.out.println("Logout successfully !!");
 		System.out.println("Test Case "+i+" Passed Successfully.");
-		System.out.println("****************************************************************************************************************");
+		System.out.println("***************************************************************************************************************");
 		
 		}	
 	}
